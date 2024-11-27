@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   overflow-x: hidden ;
+}
+
+.logo{
+   width: 100%;
+   background-color: black;
+   color: wheat;
+}
+
+.lakme {
+    background-color: white;
+    height: 100vh;
+    h1{
+      width: 100%;
+    }
+   //  background: url(/lakme1.webp)no-repeat center center/cover;
+    display:flex ;
+    
+
+}
+
+.lakme h1{
+    display: flex;
+    background-color: black;
+    color: #ffffff;
+    height: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.navbar{
+    margin-left: 20px;
+
+    h4{
+      font-size: 50px ;
+      font-weight: 100 ;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: #e0c168;
+    }
+    
+    h2{
+      font-size: 50px ;
+      color: #e0c168;
+    }
+    p{
+      font-size: x-large;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    
+}
+
+.btn {
+    background-color:black;
+    color:white ;
+    font-size: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    background: radial-gradient(#FFFDD0,#FFD700);
+       
+
+ }
+ 
+ .navbar btn{
+    padding-top: 20px;
+
+ }
+
+ .collection .mode {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+ }
+.mode h1{
+   margin-top: 30px;
+   margin-bottom: 10px;
+   font-size: 40px;
+   color: #e0c168;
+
+}
+.mode p{
+   font-size: 25px;
+   margin-bottom: 30px;
+}
+ .collection .rough{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+ }
+ .rough{
+   .card1{
+      background-color: #F7F4F1  ;
+      border-radius: 20px;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 900;
+
+   
+      
+      
+   }
+   .card2{
+      background-color: #F7F4F1;
+      border-radius: 20px;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 900;
+   } 
+   .card3{
+      background-color: #F7F4F1;
+      border-radius: 20px;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 900;
+   }
+}
+
+ .bloom{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    
+    .leftbloom{
+      h1{
+         color: #e0c168;
+         font-size: 40px;
+      }
+      p{
+         font-size: 20px;
+         color: white;
+         padding-bottom: 40px;
+         padding-top: 30px;
+      }
+    }
+
+ }
+
+ .bloom .style{
+    margin-left: 20%
+ }
+
+.india{
+   .range{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .img{
+      width: 100%;
+  
+      max-height: 540px;
+
+      img{
+         width: 100%;
+        
+         max-height: 540px;
+         object-fit: cover;
+      }
+   }
+}
+
+
+label{
+   font-size: 25px;
+   color: white;
+}
+
+ .footer{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem ;
+   background-color: #666666;
+   color: white;
+   // height: 100vh;
+   
+}
+
+input{
+   color: white;
+   
+}
+
+.rough.card.h4{
+   font-size: 16px;
+
+}
+
+.node h1{
+   text-align: center;
+   color: #000000;
+   font-size: 32px;
+
+}
+.node p{
+   text-align: center;
+   color: #000000;
+   font-size: 20px;
+}
+
+ .address.icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.rough.parent{
+   display: flex;
+   width: 20px;
+   height: 20px;
+}
+
+.parent{
+   display: flex;
+   gap:8px;
+   
+}
+.parent {
+   .demo{
+       border: 2px solid black;
+       background-color: rgb(255, 192, 236);
+       height: 20px;
+       width: 20px;
+       
+ 
+}
+}
+
+.box{
+   display: flex;
+   gap: 8px;
+}
+
+.box{
+   .box1{
+       border: 2px solid black;
+       background-color: rgb(255, 192, 236);
+       height: 20px;
+       width: 20px;
+   }
+  .star{
+   border: 2px solid black;
+   background-color: rgba(228, 74, 74, 0.605);
+   height: 20px;
+   width: 20px;
+  }
+
+  .name{
+   border: 2px solid black;
+   background-color: red;
+   height: 20px;
+   width: 20px;
+  }
+  .pw{
+   border: 2px solid black;
+   background-color: rgb(140, 43, 43);
+   height: 20px;
+   width: 20px;
+  }
+ .cw{
+   border: 2px solid black;
+   background-color: rgb(204, 55, 154);
+   height: 20px;
+   width: 20px;
+}
+
+  .mw{
+   border: 2px solid black;
+   background-color: rgb(207, 47, 154);
+   height: 20px;
+   width: 20px;
+  }
+
+}
+
+
